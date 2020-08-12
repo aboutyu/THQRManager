@@ -46,10 +46,11 @@ class ViewController: UIViewController, THQRScanViewDelegate {
         super.viewDidLoad()
 
         thQRScanView.delegate = self
-        thQRScanView.startCapture() // 애니메이션 시작
-        thQRScanView.stopCapture()  // 애니메이션 종료
+        thQRScanView.startCapture() // Start scan QR Code
+        thQRScanView.stopCapture()  // Stop scan QR Code
     }
 
+    //-Mark: Success and receive String from QR Code Image
     func reccivedQRImage(string: String?) {
         let alert = UIAlertController(title: "성공", message: string, preferredStyle: .alert)
         let ok = UIAlertAction(title: "확인", style: .default, handler: nil)
@@ -58,6 +59,7 @@ class ViewController: UIViewController, THQRScanViewDelegate {
         present(alert, animated: true)
     }
 
+    //-Mark: Fail and receive fail string
     func failScanQRImage(string: String?) {
 
         let alert = UIAlertController(title: "실패", message: string, preferredStyle: .alert)
