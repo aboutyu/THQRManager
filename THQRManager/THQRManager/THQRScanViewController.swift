@@ -20,7 +20,6 @@ class THQRScanViewController: UIViewController, THQRScanViewDelegate {
         thQRScanView.startCapture()
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

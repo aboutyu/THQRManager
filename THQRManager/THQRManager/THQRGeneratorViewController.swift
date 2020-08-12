@@ -26,7 +26,7 @@ class THQRGeneratorViewController: UIViewController {
             return
         }
         
-        guard let img = txt.thQRGenerator() else {
+        guard let img = txt.thQRGenerator(scaleX: 100.0, scaleY: 100.0) else {
             return
         }
         

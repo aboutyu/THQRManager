@@ -9,7 +9,7 @@ import UIKit
 
 extension String {
     
-    public func thQRGenerator() -> UIImage? {
+    public func thQRGenerator(scaleX: CGFloat = 10.0, scaleY: CGFloat = 10.0) -> UIImage? {
         
         guard let data = self.data(using: .ascii), let filter = CIFilter(name: "CIQRCodeGenerator") else {
                 return nil
@@ -21,7 +21,7 @@ extension String {
                 return nil
             }
             
-            let transform = CGAffineTransform(scaleX: 10, y: 10)
+            let transform = CGAffineTransform(scaleX: scaleX, y: scaleY)
             let image = img.transformed(by: transform)
         
             return UIImage(ciImage: image)
