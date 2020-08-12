@@ -1,0 +1,2 @@
+# THQRManager
+THQRManager
