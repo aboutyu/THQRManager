@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name             = "THQRManager"
-  spec.version          = "1.0.0"
+  spec.version          = "1.0.1"
   spec.summary          = "Super Easy QR Scanner and QR Image Generate."
   spec.description      = "This is Super Easy QR Scanner and QR Image Generate."
   spec.homepage         = "https://github.com/aboutyu/THDissolveBanner"
