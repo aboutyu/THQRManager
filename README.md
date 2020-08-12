@@ -42,9 +42,6 @@ class ViewController: UIViewController, THQRScanViewDelegate {
 
     @IBOutlet weak var thQRScanView: THQRScanView!
 
-    let images: [String]    = ["URL", "URL", "URL", "URL"]
-    let str: [String]       = ["TEXT", "TEXT", "TEXT", "TEXT"]
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
