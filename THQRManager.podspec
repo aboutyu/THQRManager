@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.version          = "1.0.1"
   spec.summary          = "Super Easy QR Scanner and QR Image Generate."
   spec.description      = "This is Super Easy QR Scanner and QR Image Generate."
-  spec.homepage         = "https://github.com/aboutyu/THDissolveBanner"
+  spec.homepage         = "https://github.com/aboutyu/THQRManager"
   spec.license          = { :type => "MIT", :file => "LICENSE" }
   spec.author           = { "James" => "aboutyu@gmail.com" }
   spec.platform         = :ios, "11.0"
