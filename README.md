@@ -71,6 +71,6 @@ class ViewController: UIViewController, THQRScanViewDelegate {
 }
 ```
 
-# License
+# License     
 
 THQRManager is available under the MIT license. See the LICENSE file for more info.
